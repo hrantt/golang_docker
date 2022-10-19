@@ -18,7 +18,7 @@ go test
 Just a small container that downloads go-alpine, compiles and runs greetings program. 
 
 ```sh
-docker build -t go-greetings .
+docker build --tag go-greetings .
 ```
 
 This will create the dillinger image and pull in the necessary dependencies.
